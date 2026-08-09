@@ -21,7 +21,6 @@ body {
     font-weight: bold;
 
     height: 200px;
-    margin-bottom: 100px;
 
     display: flex;
     flex-direction: column;
@@ -50,8 +49,10 @@ a:hover {
     grid-template-columns: repeat(4, 250px);
     grid-auto-rows: 250px;
     gap: 50px;
-
     justify-content: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -76,3 +77,25 @@ img {
     border-radius: 20px;
 }
 /* ----------- main container ----------- */
+
+
+/* ----------- footer ----------- */
+.footer {
+    background-color: #524646;
+    color: #FCF2E5;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* ----------- footer ----------- */
